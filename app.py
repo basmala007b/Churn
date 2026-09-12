@@ -27,5 +27,4 @@ if st.button('predict'):
 
     predict = model.predict(df[features])
     result = target_encoder.inverse_transform(predict)
-
-    st.write("prediction is: ", result[0])
+    
